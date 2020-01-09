@@ -30,9 +30,7 @@ end
   # that are in the inner Arrays
 
 def total_even_pairs(src)
-  new_array = []
-  count = 0 
-  
+  total = 0 
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
